@@ -1,3 +1,78 @@
-body{
-    background-color: wheat;
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    height: 100vh;
+    background-color: #B6B3A1;
+    color: #ffffff;
+    font-family: "Alegreya", serif;
+}
+
+svg{
+    width: 40px;
+}
+
+header{
+    padding: 20px 50px 20px 50px;
+    background-color: #8581A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+div{
+    display: flex;
+}
+
+nav p{
+    font-size: 20px;
+}
+
+main{
+    max-height:100%;
+}
+table{
+    margin-inline: auto;
+}
+
+.block{
+    padding: 15px 30px;
+}
+
+.top{
+    background-color: #3B3561;
+}
+
+.common{
+    background-color: #FFF195;
+    color: #3B3561;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex p:first-child{
+    margin-right: 20px;
+}
+
+.hover{
+    transition: 0.2s all;
+}
+
+.hover:hover{
+    color: #3B3561 !important;
+}
+
+.center{
+    display: grid;
+    place-content: center;
+}
+
+
+
